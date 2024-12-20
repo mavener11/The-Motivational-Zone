@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.hero-section {
+    background-image: url('mountain.jpg'); /* Replace 'lighthouse.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.welcome-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.welcome-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.welcome-section p {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+	
+	
+	content {
+  min-height: 80vh; /* Ensures footer is at the bottom if content is short */
+  padding: 20px;
+}
+
+			
+			.footer {
+			background-image:url('black.jpg'); /* Replace with your image path */
+  background-size: cover; /* Makes the image cover the entire footer */
+  background-repeat: no-repeat;
+  background-position: center; /* Centers the image */
+  height: 200px; /* Adjust as needed */
+  display: flex;
+  align-items: center; /* Aligns content vertically */
+  justify-content: center; /* Aligns content horizontally */
+  color: white; /* Text color for contrast */
+        }
+            
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        .footer a {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+}
